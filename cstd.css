@@ -1,0 +1,43 @@
+button {
+  margin-top:5px;
+  position: relative;
+  background-color: transparent;
+  color:#17D4FE;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #17D4FE;
+  font-size: 15px;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #17D4FE;
+  color:#000;
+}
+#TT{
+    border: 1px solid #17D4FE;
+    border-collapse: collapse;
+    width:100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #17D4FE;
+    border-collapse: collapse;
+}
+
+#info_am {
+    background: #222222AA;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    letter-spacing: 2px;
+	padding-bottom:5px; 
+	text-align:left;
+}
