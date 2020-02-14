@@ -6,7 +6,7 @@ var day_list = [
 [00,30,"D0 show M300071"],
 [01,21,"check  updated result"],
 [01,30,"check cb sc st cctv 10 6 3"],
-[02,15,"DCASS function 3"],
+[02,15,"DCASS function 3 星期二至六要做"],
 [02,55,"closure of future session day tonight checking result"],
 [03,20,"SPAN download"],
 [03,26,"Check BF BO logout"],
