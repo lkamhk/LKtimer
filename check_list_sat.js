@@ -6,7 +6,7 @@ var sat_list = [
 [00,30,"D0 show M300071"],
 [02,05,"check cctv"],
 [02,15,"function 3 (enter 2 not 1)"],
-[03,20,"SPAN download"],
+[03,21,"SPAN download"],
 [03,30,"Check moving data"],
 [03,40,"APCheck"],
 [03,50,"see D2 start copy"],
