@@ -3,8 +3,8 @@
 //勿在"(task)"內用"符號,會有bug
 // [(hour),(minute),"(task)"],,
 var sat_list = [
-[00,10,"closure of future session day tonight checking result"],
-[00,48,"D0 show M300071"],
+[00,01,"進入星期六"],
+[00,30,"D0 show M300071"],
 [02,05,"check cctv"],
 [02,30,"function 3 (enter 2 not 1)"],
 [03,20,"SPAN download"],
