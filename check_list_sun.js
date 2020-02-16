@@ -44,7 +44,7 @@ var sun_list = [
 [17,00,"WS login"],
 [17,21,"AP check"],
 [17,27,"LedgerVsAB checking result"],
-[18,00,"WS login"],
+[18,00,"WS login + data request EMAIL"],
 [19,00,"WS login"],
 [20,00,"WS login"],
 [20,10,"Programme memory check"],
@@ -53,7 +53,6 @@ var sun_list = [
 [22,00,"WS login"],
 [22,05,"cctv check"],
 [22,50,"print Check list"],
-[22,55,"check all data request input to excel"],
 [23,00,"WS login & programme memory email"],
 [23,05,"OBS restart"]
 ];
