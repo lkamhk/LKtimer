@@ -65,6 +65,6 @@ var sat_list = [
 [22,55,"check all data request input to excel"],
 [23,00,"WS login & programme memory email"],
 [23,05,"OBS restart"],
-[23,31,"2345 checking result"]  
+[23,44,"2345 checking result"]  
 ];
 //請check清楚時間(小時,分鐘)是順序排列
