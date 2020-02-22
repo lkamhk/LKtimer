@@ -65,8 +65,9 @@ function showTime(){
     document.getElementById("showbox").innerText = "Time: " + time;
 	
 	setTimeout("showTime()", 1000);	
+	if (h ==0 && m == 0 && s==0 ){fixtshow();}
 	nextTaskf(ah,am,aw,as);
-	
+
 
 
 
@@ -104,7 +105,7 @@ function fixtshow(){
 		}
 }
 
-fixtshow()
+fixtshow();
 		
 function alltprint(){
 
