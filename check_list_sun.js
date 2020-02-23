@@ -22,7 +22,6 @@ var sun_list = [
 [08,05,"APcheck"],
 [08,10,"GPS Tracking(report)"],
 [08,28,"WS login"],
-[08,30,"IVRS update"],
 [09,00,"WS login"],
 [09,40,"WS login"],
 [10,00,"WS login"],
