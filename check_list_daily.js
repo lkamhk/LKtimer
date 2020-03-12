@@ -54,6 +54,7 @@ var day_list = [
 [08,31,"0830 checking result"],
 [08,45,"Cap SPAN download"],
 [08,46,"FO & OQ status change"],
+[08,55,"BU dump cap"],
 [08,58,"Trading PC OCGDCV14 should be working"],
 [08,59,"JP banna check"],
 [09,00,"WS login & firewall & BS start loading"],
