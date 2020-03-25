@@ -30,7 +30,7 @@ body {
 <button onclick="alltprint()">List</button>
 <button onclick="alltprintOff()">Hide</button>
 <button onclick="notifyMe()">Notification</button>
-
+<button onclick="fixtshow()">FixShow</button>
 <p id="allTask"></p>
 
 
@@ -99,13 +99,14 @@ function fixtshow(){
 	else{ 
 	list = day_list; }
 	
+	    var time1=1;
+	
 		for ( y =0 ; y < list.length; y++){
 		if(list[y][0]<10){list[y][0] = "0"+list[y][0];}
 		if(list[y][1]<10){list[y][1] = "0"+list[y][1];}			
 		}
 }
 
-fixtshow();
 		
 function alltprint(){
 
