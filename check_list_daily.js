@@ -12,7 +12,7 @@ var day_list = [
 [03,26,"Check BF BO logout"],
 [03,30,"Check checking result"],
 [03,41,"APCheck2"],
-[03,46,"check AR MK result"],
+[03,46,"check AR MK result有問題問埋關唔關ST"],
 [03,50,"Check moving data"],
 [04,00,"Daily statement generation(ST) & gold statement SS"],
 [04,05,"Mark IDtoE & SDtoE(OQ)"],
