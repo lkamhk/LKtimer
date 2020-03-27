@@ -53,6 +53,7 @@ function showTime(){
     var w = Sdate.getDay(); //0 - 6 (week)(0=sun,1=mon,6=sat etc.)
 	
 	aw = w;
+	ow = w;
 	ah = h;
 	am = m;
 	as = s;
@@ -65,7 +66,9 @@ function showTime(){
     document.getElementById("showbox").innerText = "Time: " + time;
 	
 	setTimeout("showTime()", 1000);	
-	if (h ==0 && m == 0 && s==0 && w==0 && w==6){fixtshow();}
+	if (h ==0 && m == 0 && s==0 && w==0){fixtshow();}
+	if (h ==0 && m == 0 && s==0 && w==6){fixtshow();}
+	if (h ==0 && m == 0 && s==0 && w==1){fixtshow();}
 	nextTaskf(ah,am,aw,as);
 
 
