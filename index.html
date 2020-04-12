@@ -26,7 +26,7 @@ body {
 
 <div id="pastTask" style="padding-bottom:5px;">Pre Task:</div>
 <div id="nextTask" style="padding-bottom:5px;">Next Task:</div>
-
+<input type="checkbox" value="chday">	
 <button onclick="alltprint()">List</button>
 <button onclick="alltprintOff()">Hide</button>
 <button onclick="notifyMe()">Notification</button>
@@ -37,8 +37,9 @@ body {
 
 
 <script>
+	var chday;
 	var list;
-    var ah;
+        var ah;
 	var am;
 	var as;
 	var aw;
@@ -69,6 +70,7 @@ function showTime(){
 	if (h ==0 && m == 0 && s==0 && w==0){fixtshow();}
 	if (h ==0 && m == 0 && s==0 && w==6){fixtshow();}
 	if (h ==0 && m == 0 && s==0 && w==1){fixtshow();}
+	if (chday == true){aw == 6}
 	nextTaskf(ah,am,aw,as);
 
 
