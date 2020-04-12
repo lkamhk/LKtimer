@@ -80,7 +80,6 @@ function showTime(){
 	if (h ==0 && m == 0 && s==0 && w==6){fixtshow();}
 	if (h ==0 && m == 0 && s==0 && w==1){fixtshow();}
 	
-	if (chday == true){aw == 6;}
 	nextTaskf(ah,am,aw,as);
 
 
@@ -106,8 +105,8 @@ function fixtshow(){
     var sw = pdate.getDay(); //0 - 6 (week)(0=sun,1=mon,6=sat etc.)
 	
 	pw = sw;
-    if (chday == true){list == 6;}
-    else if (pw==0) { 
+    
+    if (pw==0) { 
 	list = sun_list; }
     else if (pw==6) { 
 	list = sat_list; }
