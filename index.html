@@ -18,37 +18,41 @@ body {
 
   </head>
   <body>
-<audio id="audio" source src="knock.mp3" type="audio/mpeg"></audio>
-
+  
+<audio id="audio0" source src="knock.mp3" type="audio/mpeg"></audio>
+<audio id="audio1" source src="icq.mp3" type="audio/mpeg"></audio>
+<audio id="audio2" source src="din.mp3" type="audio/mpeg"></audio>
+<audio id="audio3" source src="cut.mp3" type="audio/mpeg"></audio>
+<audio id="audio4" source src="knock.mp3" type="audio/mpeg"></audio>
 
 <body onload="showTime()">
 <div id="showbox" class="clock"></div>
 
 <div id="pastTask" style="padding-bottom:5px;">Pre Task:</div>
 <div id="nextTask" style="padding-bottom:5px;">Next Task:</div>
-<form>	
-公眾假期:<input type="checkbox" value="chday">
-	<p></p>
-<input type="Radio" name="wmusic"> 核警報
-<input type="Radio" name="wmusic"> 叮叮叮
-<input type="Radio" name="wmusic"> QQ
-	<p></p>
-<input type="submit" value="Submit">
-	</form>
-	
+
+公眾假期:<input type="Radio" name= "hoildayselect" onclick="setHoilday(this)" id="sat" data-day-type="6" >Sat 
+		 <input type="Radio" name= "hoildayselect" onclick="setHoilday(this)" id="sun" data-day-type="0" >Sun
+	<br>
+音效選擇:
+<input type="Radio" name= "soundselect" onclick="audioSelect(this)" id="Knock" data-music-type="audio0">Knock
+<input type="Radio" name= "soundselect" onclick="audioSelect(this)" id="icq" data-music-type="audio1">ICQ
+<input type="Radio" name= "soundselect" onclick="audioSelect(this)" id="din" data-music-type="audio2">叮~
+<input type="Radio" name= "soundselect" onclick="audioSelect(this)" id="cut" data-music-type="audio3">咳~
+<br>
 <button onclick="alltprint()">List</button>
 <button onclick="alltprintOff()">Hide</button>
-<button onclick="notifyMe()">Notification</button>
-<button onclick="fixtshow()">FixShow</button>
+
 <p id="allTask"></p>
 
 
 
 
 <script>
+    var audioAS;
 	var chday;
 	var list;
-        var ah;
+    var ah;
 	var am;
 	var as;
 	var aw;
@@ -80,6 +84,7 @@ function showTime(){
 	if (h ==0 && m == 0 && s==0 && w==6){fixtshow();}
 	if (h ==0 && m == 0 && s==0 && w==1){fixtshow();}
 	
+	
 	nextTaskf(ah,am,aw,as);
 
 
@@ -88,6 +93,12 @@ function showTime(){
 
 	
 		}
+		
+function setHoilday(day){
+var n= day.getAttribute("data-day-type");  
+ chday = n;
+fixtshow();
+}
 
 function alltprintOff(){
 
@@ -105,10 +116,14 @@ function fixtshow(){
     var sw = pdate.getDay(); //0 - 6 (week)(0=sun,1=mon,6=sat etc.)
 	
 	pw = sw;
-    
-    if (pw==0) { 
+  
+    if (chday==0) { 
 	list = sun_list; }
-    else if (pw==6) { 
+	else if (chday==6) { 
+	list = sat_list;}
+    else if (pw==0) { 
+	list = sun_list; }
+	else if (pw==6) { 
 	list = sat_list; }
 	else{ 
 	list = day_list; }
@@ -135,9 +150,13 @@ function alltprint(){
 	
 	pw = sw;
 	
-    if (pw==0) { 
+    if (chday==0) { 
 	list = sun_list; }
-    else if (pw==6) { 
+	else if (chday==6) { 
+	list = sat_list;}
+    else if (pw==0) { 
+	list = sun_list; }
+	else if (pw==6) { 
 	list = sat_list; }
 	else{ 
 	list = day_list; }
@@ -165,9 +184,14 @@ function alltprint(){
 	} */
 	
 function nextTaskf(ah,am,aw,as){
-	if (aw==0) { 
+
+	 if (chday==0) { 
 	list = sun_list; }
-    else if (aw==6) { 
+	else if (chday==6) { 
+	list = sat_list;}
+    else if (aw==0) { 
+	list = sun_list; }
+	else if (aw==6) { 
 	list = sat_list; }
 	else{ 
 	list = day_list; }
@@ -194,16 +218,24 @@ function nextTaskf(ah,am,aw,as){
  }
 } 
 
-function audioP(){
+function audioSelect(selectM){
+var audioS;
+audioS = selectM.getAttribute("data-music-type");
+audioAS = audioS;
+var audio = document.getElementById(audioS);
+audio.play();
+}
 
+function audioP(){
+    var audios;
 	var adate = new Date();
     var vh = adate.getHours(); // 0 - 23 
     var vm = adate.getMinutes(); // 0 - 59
     var vs = adate.getSeconds(); // 0 - 59
     var vw = adate.getDay(); //0 - 6 (week)(0=sun,1=mon,6=sat etc.)*/
-
-	if(vs >= 0 && vs <5 ){
-	var audio = document.getElementById("audio");
+	audios = audioAS;
+	if(vs >= 0 && vs <3 ){
+	var audio = document.getElementById(audios);
 	audio.play();
 
 }
