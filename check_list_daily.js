@@ -102,6 +102,7 @@ var day_list = [
 [17,55,"Data request registration email"],
 [18,00,"WS login"],
 [18,39,"Cap grey diffs"],
+[18,46,"1700 checking result 20200424"],
 [19,00,"WS login + firewall"],
 [19,21,"Cap Span download"],
 [19,30,"Silver settlement price Capscreen(summer)"],
