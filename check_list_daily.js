@@ -109,6 +109,7 @@ var day_list = [
 [20,00,"WS login"],
 [20,10,"Programme memory check"],
 [20,30,"Silver settlement price Capscreen(winter)"],
+[20,35,"D0D1 backup start"],
 [21,00,"WS login + firewall excel"],
 [22,00,"WS login + firewall excel"],
 [22,32,"Gold settlement price Capscreen(summer)"],
