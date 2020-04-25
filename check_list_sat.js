@@ -39,7 +39,7 @@ var sat_list = [
 [11,05,"OBS"],
 [11,30,"WS login"],
 [12,00,"WS login"],
-[12,35,"APcheck"],
+[12,41,"APcheck"],
 [13,00,"WS login"],
 [13,30,"WS login"],
 [13,55,"WS login"],
