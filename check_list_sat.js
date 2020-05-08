@@ -26,7 +26,6 @@ var sat_list = [
 [06,42,"GOS place order"],
 [06,55,"Mark size of [io fo oq(oo) go],.txt"],
 [07,05,"check mobile 5"],
-[07,10,"check recorder"],
 [08,05,"APcheck"],
 [08,10,"GPS Tracking(report)"],
 [08,28,"WS login"],
