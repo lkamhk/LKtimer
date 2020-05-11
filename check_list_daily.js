@@ -87,7 +87,7 @@ var day_list = [
 [15,02,"A-Share market off"],
 [15,08,"OBS restart"],
 [15,30,"WS login"],
-[15,35,"DCASS function 5"],
+[15,45,"DCASS function 5"],
 [16,00,"WS login"],
 [16,11,"IO freezed"],
 [16,20,"Email for IO released"],
