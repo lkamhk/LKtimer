@@ -1,13 +1,17 @@
  <!DOCTYPE HTML>
   <html>
   <head>
-  <META HTTP-EQUIV="expires" CONTENT="0">	  
+<metahttp-equiv = 'cache-control' content = 'no-cache'>
+<metahttp-equiv = 'expires' content = '0'>
+<metahttp-equiv = 'pragma' content = 'no-cache'>	    
   <title>Timer Web</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron'>
     <link id="pagestyle" href="cstd.css" rel="stylesheet" type="text/css" />
 <script src="check_list_daily.js"></script>
 <script src="check_list_sat.js"></script>
 <script src="check_list_sun.js"></script>
+<scriptsrc = "newfile.js?version = 1.0.0"></script>	
+
 
 <style>
 body {
@@ -42,7 +46,6 @@ body {
 <br>
 <button onclick="alltprint()">List</button>
 <button onclick="alltprintOff()">Hide</button>
-<button onclick="CC()">ClearCache</button>
 <p id="allTask"></p>
 
 
@@ -57,9 +60,7 @@ body {
 	var as;
 	var aw;
 
-function CC(){
-  document.write("<link rel='stylesheet' type='text/css' href='/css/layout.css?v="+new Date().getTime()+"'>");
-}
+
 
 function showTime(){
     var Sdate = new Date();
