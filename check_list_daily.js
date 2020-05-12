@@ -93,7 +93,7 @@ var day_list = [
 [16,20,"Email for IO released"],
 [16,30,"OQ freezed"],
 [16,40,"closure of future session day tonight checking result"],
-[16,45,"DCASS function 2"],
+[16,35,"DCASS function 2"],
 [16,55,"DCASS function 27"],
 [17,00,"WS login + firewall excel"],
 [17,05,"OQ released"],
