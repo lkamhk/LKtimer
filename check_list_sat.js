@@ -58,6 +58,7 @@ var sat_list = [
 [19,00,"WS login"],
 [20,00,"WS login"],
 [20,10,"Programme memory check"],
+[20,35,"D0D1 backup"],
 [21,00,"WS login"],
 [22,00,"WS login"],
 [22,05,"cctv check"],
