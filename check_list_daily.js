@@ -118,6 +118,7 @@ var day_list = [
 [23,00,"WS login & programme memory email"],
 [23,05,"OBS restart"],
 [23,30,"Gold settlement price Capscreen(winter)"],
+[23,31,"A Stock Closing Price checking result"],
 [23,44,"2345 Result check"],
 [23,55,"closure of future session day tonight checking result+check all data request has input to excel"]
 ];
