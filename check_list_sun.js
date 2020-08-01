@@ -5,7 +5,6 @@
 var sun_list = [
 [00,30,"D0 show M300071"],
 [02,05,"check cctv"],
-[03,30,"Check moving data"],
 [03,41,"APCheck"],
 [04,00,"Daily statement generation(ST)"],
 [04,30,"Check D2 is started"],
