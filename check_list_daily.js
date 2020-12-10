@@ -17,7 +17,7 @@ var day_list = [
 [04,05,"Mark IDtoE & SDtoE(OQ)"],
 [04,15,"Check D2 is started"],
 [04,35,"Check programme version)"],
-[04,45,"Check ProDB vs RptDB(Not same, call kenny)"],
+[04,45,"Check ProDB vs RptDB(mon-firday diff > 10w  call kenny)"],
 [05,00,"Programme memory check"],
 [05,10,"see D0D1 showing backup"],
 [05,50,"check BT OMD-C connected"],
@@ -121,7 +121,7 @@ var day_list = [
 [23,05,"OBS restart"],
 [23,30,"Gold settlement price Capscreen(winter)"],
 [23,31,"A Stock Closing Price checking result"],
-[23,44,"2345 Result check"],
+[23,44,"2345 Result check(hv output call senior staff)"],
 [23,55,"closure of future session day tonight checking result+check all data request has input to excel"]
 ];
 //請check清楚時間(小時,分鐘)是順序排列
