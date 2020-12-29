@@ -99,7 +99,7 @@ var day_list = [
 [17,21,"AP check2.txt!"],
 [17,55,"LedgerVsAB checking result "],
 [18,00,"WS login+ Data request registration email"],
-[18,39,"Cap grey diffs"],
+[18,40,"Cap grey diffs"],
 [18,46,"1700 checking result"],
 [19,00,"WS login + firewall"],
 [19,21,"Cap Span download"],
