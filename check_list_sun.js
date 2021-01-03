@@ -51,5 +51,6 @@ var sun_list = [
 [22,50,"print Check list"],
 [23,00,"WS login & programme memory email"],
 [23,05,"OBS restart"]
+[23:45,"2345 checking result "]
 ];
 //請check清楚時間(小時,分鐘)是順序排列
