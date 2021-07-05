@@ -26,7 +26,7 @@ var day_list = [
 [06,10,"Check BL1&2 OMD-D connected"],
 [06,20,"1.mvss,2.mvds"],
 [06,25,"open check trade"],
-[06,30,"Run APDataChecking"],
+[06,30,"Run APDataChecking&& GOS PC Time check"],
 [06,32,"Tomcat check security log & input excel"],
 [06,37,"cap screen HSI 1 5 700 closing price"],
 [06,55,"Mark size of [io fo oq(oo) go],.txt"],
