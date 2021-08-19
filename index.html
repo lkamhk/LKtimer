@@ -44,7 +44,8 @@ body {
 <input type="Radio" name= "soundselect" onclick="audioSelect(this)" id="din" data-music-type="audio2">叮~
 
 <br>
-<button onclick="alltprint()">List</button>
+
+<button class="button" onclick="alltprint()"><span>List</span></button>
 <button onclick="alltprintOff()">Hide</button>
 <p id="allTask"></p>
 
@@ -59,7 +60,7 @@ body {
 	var am;
 	var as;
 	var aw;
-
+var cprint=0;
 
 
 function showTime(){
@@ -147,7 +148,8 @@ function fixtshow(){
 fixtshow();
 		
 function alltprint(){
-
+if (cprint==0) {cprint==1}
+if (cprint==1) { alltprintOff(); cprint==0;}	
     var pdate = new Date();
     var sw = pdate.getDay(); //0 - 6 (week)(0=sun,1=mon,6=sat etc.)
 	
