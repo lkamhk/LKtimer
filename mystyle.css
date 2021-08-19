@@ -3,6 +3,9 @@
   background-color: transparent;
   color:white;
   border: 2px solid #555555;
+  font-size:20px;
+  padding:relative;
+  width: relative;
   text-align: center;
   transition: all 0.5s;
   cursor: pointer;
@@ -20,12 +23,12 @@
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -10px;
   transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 .button:hover span:after {
