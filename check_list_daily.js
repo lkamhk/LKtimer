@@ -7,6 +7,7 @@ var day_list = [
 [01,21,"check  updated result"],
 [01,30,"check cb sc st cctv 10 6 3"],
 [02,15,"DCASS function 3 星期二至六要做"],
+[02,45,"check 機盤> Dawn Trade : 0"],
 [02,55,"closure of future session day tonight checking result"],
 [03,21,"SPAN download"],
 [03,26,"Check BF BO logout"],
@@ -73,6 +74,7 @@ var day_list = [
 [11,15,"pps check"],
 [11,20,"[reminder],order lunch"],
 [11,30,"WS login"],
+[11,54,"check 機盤> 時段: 0"],
 [12,00,"WS login"],
 [12,01,"AP force close status(whatsapp)"],
 [12,10,"closure of future session day tonight checking result"],
@@ -92,6 +94,7 @@ var day_list = [
 [16,01,"All market satate change to 2"],
 [16,11,"IO freezed"],
 [16,20,"Email for IO released"],
+[16,24,"check 機盤> 即日 : 0"],
 [16,35,"DCASS function 2"],
 [16,44,"closure of future session day tonight checking result"],
 [16,55,"DCASS function 27"],
@@ -122,6 +125,7 @@ var day_list = [
 [23,30,"Gold settlement price Capscreen(winter)"],
 [23,31,"A Stock Closing Price checking result"],
 [23,44,"2345 Result check(hv output call senior staff)"],
+[23,45,"check 機盤> 即晚: 0"], 
 [23,55,"closure of future session day tonight checking result+check all data request has input to excel"]
 ];
 //請check清楚時間(小時,分鐘)是順序排列
