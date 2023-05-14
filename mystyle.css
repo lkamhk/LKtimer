@@ -1,15 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Gilroy-Bold', sans-serif;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #1b1b1b;
+  color: #f5f5f5;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+
+
+.container_loop{
+  display: block;
+  height: 15%;
+  width: 100%;
+}
+
+.loop {
+
+
+  position: absolute;
+  overflow: hidden;
+  top: 0%;
+height: auto;
+  width: 100%;
+
+  /* background-color: #2f2f2f; */
+  font-size: Max(1rem, Min(10rem, calc(100vw * 10 /75)));
+
+  white-space: nowrap;
+
+}
+
+.loop>h1 {
+
+  font-weight: 400;
+  animation: anim 20s linear infinite;
+}
+
+.loop>h1>span {
+  -webkit-text-stroke: 1.2px #fff;
+  color: transparent;
+  font-weight: 500;
+}
+
+
+#showbox {
+  /* flex-grow: 1; */
+margin-top: 25vh;
+  width: 100%; 
+  height: auto;
+  /* background-color: #2f2f2f; */
+  font-size: Max(1rem, Min(10rem, calc(100vw * 10 /75)));
+  line-height: Max(1rem, Min(10rem, calc(100vw * 10 /75)));
+  text-align: center;
+justify-content: center;
+  font-family: 'alarm clock', sans-serif;
+}
+
+.menuL {
+
+  font-size: Max(1rem, Min(3rem, calc(100vw * 5 /75)));
+  line-height: Max(1rem, Min(3rem, calc(100vw * 5 /75)));
+  width: 70vw;
+  text-align: center;
+  padding-top: 10px;
+   border: #2f2f2f;
+   border-style: solid;
+   /* border-left: none;
+   border-right: none;
+   border-bottom: none; */
+  font-family: 'Montserrat', sans-serif;
+}
+.menuL > div{
+  margin: 15px 15px;
+}
+.menuL > span {
+  display: block;
+  /* text-align: start; */
+  text-decoration: underline;
+}
+
+#pastTask{
+  
+font-size: Max(1rem, Min(1.5rem, calc(100vw * 3/75)));
+}
+
+#nextTask{
+  
+  font-size: Max(1rem, Min(1.5rem, calc(100vw * 3/75)));
+  }
+  
+.soundSelect {
+
+}
+
 .button {
   border-radius: 4px;
   background-color: transparent;
-  color:white;
+  color: white;
   border: 2px solid #4CAF50;
-  font-size:20px;
-  padding:relative;
+  font-size: 20px;
+  padding: relative;
   width: relative;
   text-align: center;
   transition: all 0.5s;
   cursor: pointer;
-   margin: 5px;
+  margin: 5px;
 }
 
 .button span {
@@ -35,4 +154,14 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
